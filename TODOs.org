@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=hcFx-QL5ySM
+
+init 
+#+begin_src sh
+clojure -m figwheel.main -b dev
+#+end_src
+
+check if it works than quit
+
+in spacemacs =, "= to jack in
+
+then choose figwheel.main
+and next choose dev
+
+to refresh repl, quit cider 
+
+use =sesman-browser= to check if there is still cider session
+use =sesman-quit= to kill all sessions
